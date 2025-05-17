@@ -73,7 +73,7 @@ POST to http://localhost:3000/api/notifications with JSON body like:
 }
 ```
 Get user notifications:
-GET http://localhost:3000/api/users/user123/notifications
+GET http://localhost:3000/api/users/<UserId>/notifications
 
 ## Assumptions
 - RabbitMQ and MongoDB are available and properly configured.

@@ -1,7 +1,7 @@
 export const sendEmail = async (notification) => {
     try {
         
-        console.log(`📧 Sending EMAIL to User:${notification.userId}`);
+        console.log(`Sending EMAIL to User:${notification.userId}`);
         console.log(`Subject: ${notification.message.subject || 'Notification'}`);
         console.log(`Message: ${typeof notification.message === 'string' ? notification.message : JSON.stringify(notification.message, null, 2)}`);
 
